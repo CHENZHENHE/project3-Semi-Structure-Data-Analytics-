@@ -152,7 +152,7 @@ Finally, by calling top_10_products, the code displays a list of the top 10 prod
 Explanation:
 
 Preparation:
-The code does not explicitly involve data preparation as it seems to assume that the necessary data has been loaded or prepared before this code is executed.
+It directly operates on the DataFrame data.
 
 Processing:
 The code begins by grouping the data by both the product name ('name') and the store location ('storeLocation'). It sums the total sales for each unique combination of product and store location.
@@ -169,7 +169,7 @@ The final result is displayed, showing the top 3 products (by name) and their re
 Explanation:
 
 Preparation:
-The code assumes that the data is already loaded or prepared, as it directly operates on the DataFrame data.
+It directly operates on the DataFrame data.
 
 Processing:
 The code starts by grouping the data by the 'storeLocation' column, effectively creating groups for each unique store location.
@@ -187,7 +187,7 @@ The final result is displayed as the 'store_rankings' DataFrame, which shows the
 Explanation:
 
 Preparation:
-The code assumes that the data is already loaded or prepared, as it directly operates on the DataFrame data.
+It directly operates on the DataFrame data.
 It extracts the 'gender' information from the 'customer' column and creates a new 'gender' column in the DataFrame. It checks if the 'gender' key exists in each 'customer' dictionary, and if it does, it extracts the gender information; otherwise, it assigns None.
 It excludes rows with the 'purchaseMethod' value equal to 'Phone', effectively filtering out purchases made by phone.
 
